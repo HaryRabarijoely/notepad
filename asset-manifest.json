@@ -1,0 +1,11 @@
+{
+  "files": {
+    "main.js": "/notepad/static/js/main.1a246f67.js",
+    "index.html": "/notepad/index.html",
+    "static/media/trash-red.svg": "/notepad/static/media/trash-red.00734cdaf98a59b20ff7e2ee54baf51e.svg",
+    "main.1a246f67.js.map": "/notepad/static/js/main.1a246f67.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.1a246f67.js"
+  ]
+}

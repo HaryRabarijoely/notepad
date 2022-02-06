@@ -1,0 +1,103 @@
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: black;
+  color: white;
+}
+
+h1 {
+  color: #c70625;
+  font-weight: bold;
+}
+
+#root {
+  background-color: black;
+  display: flex;
+  height: 100vh;
+}
+
+aside {
+  border-right: 1px solid white;
+  width: 20vw;
+  padding-top: 1em;
+  display: flex;
+  flex-direction: column;
+}
+
+.center {
+  text-align: center;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+
+.trashall {
+  height: 2em;
+  background-color: white;
+  padding: 0.5em;
+  border-radius: 20%;
+  cursor: pointer;
+}
+
+.note {
+  word-break: break-all;
+  margin-top: 1em;
+  padding: 0 2em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px dashed white;
+}
+
+.preview {
+  width: 90%;
+  cursor: pointer;
+}
+
+section {
+  width: 80vw;
+  padding: 0em 1em;
+}
+
+#display {
+  height: 50vh;
+}
+
+input,
+textarea {
+  box-sizing: border-box;
+  width: 100%;
+  margin-top: 0.5em;
+  border: none;
+  padding: 2em;
+  background-color: rgb(202, 196, 196);
+  color: black;
+}
+
+textarea {
+  height: 30vh;
+}
+
+button {
+  font-weight: bold;
+  padding: 1em 5em;
+  margin-top: 1em;
+  margin-right: 1em;
+  background-color: #c70625;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.alert {
+  display: flex;
+  margin-top: 1em;
+  position: absolute;
+  right: 1em;
+  z-index: 1;
+  border: 1px solid #c70625;
+  background-color: rgba(199, 6, 37, 0.5);
+  padding: 2em;
+}
