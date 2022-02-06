@@ -4,7 +4,7 @@ import NoteDisplay from './components/NoteDisplay';
 import MarkdownInput from './components/MarkdownInput';
 import shortid from 'shortid';
 import NotesList from './components/NotesList';
-import Trash from '../src/images/trash-red.svg';
+import Trash from './components/images/trash-red.svg';
 
 
 const App = () => {
